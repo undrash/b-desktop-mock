@@ -15,6 +15,12 @@ export class Index {
 
         console.log( "CUSTOM SCRIPT LOADED" );
 
+        if ( document.body.classList.contains( "authentication" ) ) {
+            console.log( "aborting preload" );
+            return;
+        }
+
+
         this.mouseEnter = this.mouseEnter.bind( this );
         this.mouseLeave = this.mouseLeave.bind( this );
         this.mouseClick = this.mouseClick.bind( this );

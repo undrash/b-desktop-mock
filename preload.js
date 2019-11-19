@@ -4,7 +4,7 @@ const fs                = require('fs');
 
 const sourceDir = path.resolve( __dirname, "preload" );
 
-
+window.ipc = require('electron').ipcRenderer;
 
 process.once( 'document-start', () => {
 
