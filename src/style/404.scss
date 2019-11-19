@@ -1,0 +1,156 @@
+@import "color-variables.scss";
+
+html, body {
+  height: initial;
+  overflow: visible;
+}
+
+body {
+  background: $extra-light-purple-color;
+
+}
+
+.error-404-container {
+  min-height: 800px;
+  background: url("../style/img/website-img/404-bg.svg") no-repeat center;
+  background-size: contain;
+
+  .error-content {
+    padding-top: 220px;
+  }
+
+  .error-404 {
+    font-size: 100px;
+    color: #7681A4;
+    font-weight: bold;
+    line-height: 90px;
+  }
+
+  h2 {
+    color: $grey-color;
+    font-weight: 600;
+  }
+
+  p {
+    max-width: 380px;
+    margin: 50px auto 40px;
+  }
+
+  .quinary-btn {
+    max-width: 150px;
+    margin: auto;
+  }
+}
+
+
+@media only screen and (max-width: 585px) {
+
+  .website-header {
+
+    h1 {
+      font-size: 20px;
+      margin: 35px auto 20px;
+    }
+
+    .header-logo {
+      padding: 40px 0 0;
+      display: block;
+      margin: auto;
+    }
+
+    .header-navigation {
+      padding: 40px 0 0 0;
+      display: block;
+      margin: 5px auto 0;
+      float: none;
+      text-align: center;
+    }
+
+    .header-navigation-btn {
+      margin: 0 22px;
+    }
+
+    .header-content-wrapper {
+
+      h1 {
+        max-width: 100%;
+        margin: 35px auto;
+      }
+
+      .header-ui-img-resp {
+        margin: 15px auto 60px;
+      }
+    }
+
+  }
+
+  .error-404-container {
+    background: url("../style/img/website-img/404-bg.svg") no-repeat top 30px center;
+    background-size: contain;
+  }
+
+  .error-404-container{
+    min-height: 620px;
+
+    .error-content {
+      padding-top: 30%;
+    }
+
+    .error-404 {
+      font-size: 70px;
+      line-height: 60px;
+    }
+
+    p {
+      max-width: 300px;
+      font-size: 14px;
+      margin: 20px auto;
+    }
+
+    .quinary-btn {
+      height: 46px;
+      line-height: 46px;
+      min-width: 170px;
+
+      &.arrow {
+        background: url("../style/img/back-icon-white.svg") no-repeat left 45px center $blue-color;
+        padding-left: 65px;
+        color: #ffffff;
+      }
+
+    }
+
+  }
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+  .error-404-container{
+    background: none;
+    min-height: 380px;
+
+    .error-content {
+      padding-top: 60px;
+    }
+
+    .error-404 {
+      font-size: 70px;
+      line-height: 60px;
+    }
+
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,114 @@
+@import "color-variables";
+
+
+// ---------------------------  configuration panels  ---------------------------
+
+
+.conf-label {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+.delete-editor-guide-btn {
+  width: 33px;
+  height: 33px;
+  border-radius: 5px;
+  border: 1px solid $light-purple-color;
+  background: url("../style/img/delete-editor-icon.svg") no-repeat center;
+  opacity: 0.5;
+  display: inline-block;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.configuration-section {
+
+  // width is dependent of .preview-section
+
+  width: 420px;
+  display: inline-block;
+  background-color: #ffffff;
+  height: calc(100vh - 150px);
+  border-left: 1px solid $light-purple-color;
+  padding: 15px 20px;
+  float: right;
+  position: relative;
+  overflow-y: scroll;
+
+  &.large{
+    width: 500px;
+  }
+}
+
+.section-divider-line {
+  border-top: 1px solid $light-purple-color;
+  position: absolute;
+  width: 100%;
+}
+
+.tab-content-section {
+  padding-top: 15px;
+  clear: both;
+  overflow: hidden;
+}
+
+.hotspot-icon-thumbnail {
+  height: 100px;
+  width: 100px;
+  border: 2px solid $light-purple-color;
+  border-radius: 5px;
+  background-color: $extra-light-purple-color;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  position: relative;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:hover, &.active {
+    border: 2px solid $purple-color;
+  }
+
+  &.question {
+    background: url("../style/img/hotspot-question-icon.svg") no-repeat center $extra-light-purple-color;
+  }
+
+  &.pulse {
+    background: url("../style/img/hotspot-pulse-icon.svg") no-repeat center $extra-light-purple-color;
+  }
+}
+
+
+@media only screen and (min-width: 1650px) {
+
+  .preview-section {
+    width: calc(100% - 30%);
+
+    &.large {
+      width: 70%;
+    }
+  }
+
+  .configuration-section {
+    width: 400px;
+
+    &.large{
+      width: 30%;
+    }
+  }
+}
+
+
+
+
+
+

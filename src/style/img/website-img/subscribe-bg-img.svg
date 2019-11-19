@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="264px" height="357px" viewBox="0 0 264 357" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>subscribe-bg-img</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="2.11346233%" y1="2.69824783%" x2="97.4882976%" y2="77.6440416%" id="linearGradient-1">
+            <stop stop-color="#5D7BEE" offset="0%"></stop>
+            <stop stop-color="#5373F0" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="1942" height="572"></rect>
+        <linearGradient x1="2.11346233%" y1="2.69824783%" x2="97.4882976%" y2="77.6440416%" id="linearGradient-4">
+            <stop stop-color="#5776EC" offset="0%"></stop>
+            <stop stop-color="#4869E7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="V4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="subscribe-bg-img" transform="translate(-1678.000000, 0.000000)">
+            <mask id="mask-3" fill="white">
+                <use xlink:href="#path-2"></use>
+            </mask>
+            <use id="Mask" fill="url(#linearGradient-1)" fill-rule="nonzero" opacity="0" xlink:href="#path-2"></use>
+            <g id="Group-19" mask="url(#mask-3)" fill-rule="nonzero">
+                <g transform="translate(2054.519533, 10.155663) rotate(106.000000) translate(-2054.519533, -10.155663) translate(1689.019533, -381.844337)">
+                    <path d="M340.863869,784 C490.562017,784 625.178393,654.827613 625.178393,504.50156 C625.178393,354.175507 490.562017,207 340.863869,207 C191.165721,207 54,378.762886 54,527.905616 C54,677.048347 191.165721,784 340.863869,784 Z" id="Mask-Copy-4" stroke="none" fill="url(#linearGradient-4)"></path>
+                    <path d="M366.718702,738.7 C559.331282,738.7 729.878393,572.018643 729.878393,381.028861 C729.878393,287.546817 689.005747,191.910741 619.99371,118.52045 C550.127942,44.222267 458.704573,0.3 366.718702,0.3 C275.783026,0.3 183.619725,50.4918384 111.823198,134.066281 C42.3949864,214.883895 0.3,317.765729 0.3,411.0039 C0.3,502.630469 40.8995971,585.596067 111.790959,646.405405 C180.280342,705.154369 272.16527,738.7 366.718702,738.7 Z" id="Mask-Copy-5" stroke="#2D4DC8" stroke-width="0.6" fill="none" opacity="0.4"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

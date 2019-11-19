@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="5px" height="8px" viewBox="0 0 5 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>breadcrumbs-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="navbar/selected-flow" transform="translate(-78.000000, -78.000000)" fill="#7491FF">
+            <g id="Breadcrumbs">
+                <g transform="translate(20.000000, 73.000000)">
+                    <g id="icon/arrow-right" transform="translate(58.000000, 5.000000)">
+                        <g id="Path">
+                            <path d="M4.62730253,4.39604114 L1.00661918,7.83580725 C0.776299989,8.05473092 0.402876893,8.05473092 0.172669513,7.83580725 C-0.0575565042,7.61707835 -0.0575565042,7.2623211 0.172669513,7.04360989 L3.3764153,3.99994246 L0.172762691,0.956381253 C-0.0574633254,0.737563821 -0.0574633254,0.38284198 0.172762691,0.164113074 C0.402988708,-0.0547043579 0.776393168,-0.0547043579 1.00671236,0.164113074 L4.62739571,3.6039323 C4.74250872,3.71334987 4.8,3.8566019 4.8,3.99992475 C4.8,4.14331842 4.74239691,4.28667668 4.62730253,4.39604114 Z"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

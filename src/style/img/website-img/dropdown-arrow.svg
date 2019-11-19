@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="11px" viewBox="0 0 18 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>dropdown-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="V4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Contact" transform="translate(-1154.000000, -511.000000)" fill="#5D698D">
+            <g id="bg" transform="translate(-41.000000, -33.000000)">
+                <g id="Group-7" transform="translate(791.000000, 369.000000)">
+                    <g id="Group-2-Copy" transform="translate(0.000000, 153.000000)">
+                        <path d="M417.624128,28.6237306 L410.093624,36.1540019 C409.614593,36.6332655 408.837926,36.6332655 408.359128,36.1540019 C407.880291,35.6751647 407.880291,34.8985368 408.359128,34.4197384 L415.022461,27.7565988 L408.359322,21.0936919 C407.880484,20.6146609 407.880484,19.8381105 408.359322,19.3592733 C408.838159,18.8802422 409.614787,18.8802422 410.093818,19.3592733 L417.624322,26.8896609 C417.86374,27.1291957 417.983314,27.4428004 417.983314,27.7565601 C417.983314,28.0704748 417.863508,28.384312 417.624128,28.6237306 Z" id="dropdown-arrow" transform="translate(412.991657, 27.756725) rotate(-270.000000) translate(-412.991657, -27.756725) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

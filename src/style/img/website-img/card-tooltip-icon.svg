@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300 215" style="enable-background:new 0 0 300 215;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0;fill:url(#main-bg-3_1_);}
+	.st1{opacity:0.5317;fill:url(#bg4_1_);enable-background:new    ;}
+	.st2{opacity:0.1;fill:url(#bg3_1_);enable-background:new    ;}
+	.st3{fill:#E6EAF6;}
+	.st4{filter:url(#filter-4);}
+	.st5{fill:#FFFFFF;}
+	.st6{fill:#BA86FD;}
+	.st7{fill:#DCDFF1;}
+</style>
+<filter  filterUnits="objectBoundingBox" height="166.1%" id="filter-4" width="135.8%" x="-17.9%" y="-24.8%">
+	<feOffset  dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+	<feGaussianBlur  in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7"></feGaussianBlur>
+	
+		<feColorMatrix  in="shadowBlurOuter1" type="matrix" values="0 0 0 0 0.525490196   0 0 0 0 0.623529412   0 0 0 0 0.992156863  0 0 0 0.15 0">
+		</feColorMatrix>
+</filter>
+<title>card-tooltip-icon</title>
+<desc>Created with Sketch.</desc>
+<g>
+	<linearGradient id="main-bg-3_1_" gradientUnits="userSpaceOnUse" x1="84.3497" y1="-17.5772" x2="248.7431" y2="295.1329">
+		<stop  offset="0" style="stop-color:#EBF0FA"/>
+		<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0.5218"/>
+	</linearGradient>
+	<rect id="main-bg-3" x="0" y="0.1" class="st0" width="300.3" height="215.2"/>
+	<g id="tooltip_1_">
+		<g id="card-tooltip-icon" transform="translate(-7.000000, -18.000000)">
+			<g id="bg-scale-2">
+				
+					<linearGradient id="bg4_1_" gradientUnits="userSpaceOnUse" x1="-519.5177" y1="506.9224" x2="-519.0208" y2="507.8676" gradientTransform="matrix(114.2636 0 0 -115 59463.3672 58483)">
+					<stop  offset="0" style="stop-color:#EBF0FA"/>
+					<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0.5218"/>
+				</linearGradient>
+				<path id="bg4" class="st1" d="M123.4,199.5c29.9,0,56.9-25.7,56.9-55.7s-26.9-59.3-56.9-59.3S66,118.7,66,148.5
+					S93.4,199.5,123.4,199.5z"/>
+				
+					<linearGradient id="bg3_1_" gradientUnits="userSpaceOnUse" x1="-521.6818" y1="507.0015" x2="-520.7281" y2="506.252" gradientTransform="matrix(132.4475 -43.0348 -43.2624 -133.1479 91088.3906 45146.2734)">
+					<stop  offset="0" style="stop-color:#5D7BEE"/>
+					<stop  offset="1" style="stop-color:#5373F0"/>
+				</linearGradient>
+				<path id="bg3" class="st2" d="M168.8,188.1c34.7-11.3,56.2-51.2,45-85.9s-53.5-58.5-88.2-47.2s-53.6,61.2-42.5,95.7
+					S134.1,199.3,168.8,188.1z"/>
+			</g>
+			<ellipse id="dot-6" class="st3" cx="197.8" cy="185.3" rx="2.8" ry="2.8"/>
+			<ellipse id="dot-5" class="st3" cx="217" cy="77.5" rx="5" ry="5"/>
+			<ellipse id="dot-4" class="st3" cx="79.5" cy="73" rx="7.5" ry="7.5"/>
+			<g id="Group-13" transform="translate(40.000000, 66.000000)">
+				<g id="tooltip">
+					<g class="st4">
+						<path id="path-3_2_" d="M66,77l-5.4-5.4c-0.9-0.9-0.9-2.3,0-3.2L66,63V37.2c0-2.1,1.7-3.8,3.8-3.8h120.4
+							c2.1,0,3.8,1.7,3.8,3.8v65.1c0,2.1-1.7,3.8-3.8,3.8H69.8c-2.1,0-3.8-1.7-3.8-3.8V77z"/>
+					</g>
+					<g>
+						
+							<image style="overflow:visible;opacity:0.15;" width="165" height="103" xlink:href="6A62E0D23075D389.png"  transform="matrix(1 0 0 1 44 23.5)">
+						</image>
+						<g>
+							<g>
+								<path id="path-3_15_" class="st5" d="M66,77l-5.4-5.4c-0.9-0.9-0.9-2.3,0-3.2L66,63V37.2c0-2.1,1.7-3.8,3.8-3.8h120.4
+									c2.1,0,3.8,1.7,3.8,3.8v65.1c0,2.1-1.7,3.8-3.8,3.8H69.8c-2.1,0-3.8-1.7-3.8-3.8V77z"/>
+							</g>
+						</g>
+					</g>
+				</g>
+				<path id="btn-2" class="st6" d="M148.2,79.9h29.9c1.2,0,2.2,1,2.2,2.2v11.2c0,1.2-1,2.2-2.2,2.2h-29.9c-1.2,0-2.2-1-2.2-2.2
+					V82.2C146,80.9,147,79.9,148.2,79.9z"/>
+				<path id="line-2" class="st7" d="M82.5,47h94.8c1.7,0,3,1.3,3,3v0c0,1.7-1.3,3-3,3H82.5c-1.7,0-3-1.3-3-3v0
+					C79.5,48.3,80.9,47,82.5,47z"/>
+				<path id="line-3" class="st7" d="M82.5,60.5h52c1.7,0,3,1.3,3,3l0,0c0,1.7-1.3,3-3,3h-52c-1.7,0-3-1.3-3-3l0,0
+					C79.5,61.8,80.9,60.5,82.5,60.5z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

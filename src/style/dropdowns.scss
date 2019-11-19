@@ -1,0 +1,117 @@
+@import "color-variables";
+
+
+/** ==================================== Dropdowns ==================================== */
+
+.dropdown-bg {
+  width: 100%;
+  border-radius: 3px;
+  overflow: hidden;
+  background: #FFF;
+  box-shadow: 0 10px 25px 0 rgba( 52, 87, 220, 0.15 );
+  z-index: 1;
+}
+
+.dropdown-item {
+  font-size: 16px;
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer;
+
+  &.small {
+    font-size: 14px;
+  }
+}
+
+.text-dropdown-item:hover { background-color: #F7F9FD; }
+
+
+//-more options ... dropdown
+.dropdown-bg {
+
+  position: absolute;
+
+  .dropdown-item {
+    padding: 14px 15px 14px 45px;
+  }
+
+  .flow-header-edit-btn {
+    background: url("../style/img/edit-icon.svg") no-repeat left 15px center;
+  }
+
+  .flow-header-duplicate-btn {
+    background: url("../style/img/duplicate-icon.svg") no-repeat left 15px center;
+  }
+
+  .flow-header-delete-btn {
+    background: url("../style/img/delete-icon.svg") no-repeat left 15px center;
+  }
+
+  .flow-header-edit-btn:hover, .flow-header-duplicate-btn:hover, .flow-header-delete-btn:hover {
+    background-color: #F7F9FD;
+  }
+
+}
+
+
+.dropdown-item:hover { background-color: #F7F9FD; }
+
+
+.add-guide-type-dropdown {
+  display: none;
+  position: absolute;
+  background: white;
+  border-radius: .4em;
+  z-index: 1;
+  padding-top: 15px;
+  box-shadow: 0 10px 25px 0 rgba( 52, 87, 220, 0.15 );
+  font-size: 12px;
+  width: 200px;
+
+  .xs-font-size {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
+
+.add-guide-type-dropdown:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 0;
+  border: 9px solid transparent;
+  border-bottom-color: white;
+  border-top: 0;
+  margin-left: -9px;
+  margin-top: -9px;
+}
+
+.add-guide-list-item{
+  padding: 23px 15px 23px 100px;
+  font-size: 16px;
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer;
+
+  &:last-child {
+    border-bottom-left-radius: .4em;
+    border-bottom-right-radius: .4em;
+  }
+
+  &.modal {
+    background: url("../style/img/modal-icon.svg") no-repeat left 20px center;
+  }
+
+  &.tooltip {
+    background: url("../style/img/tooltip-icon.svg") no-repeat left 20px center;
+  }
+
+  &.hotspot {
+    background: url("../style/img/hotspot-icon.svg") no-repeat left 30px center;
+  }
+
+}
+
+.add-guide-list-item:hover {
+  background-color: #F7F9FD;
+}

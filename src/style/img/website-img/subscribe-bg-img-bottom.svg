@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="463px" height="89px" viewBox="0 0 463 89" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>subscribe-bg-img-bottom</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="2.11346233%" y1="2.69824783%" x2="97.4882976%" y2="77.6440416%" id="linearGradient-1">
+            <stop stop-color="#5D7BEE" offset="0%"></stop>
+            <stop stop-color="#5373F0" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="1942" height="572"></rect>
+        <linearGradient x1="2.11346233%" y1="2.69824783%" x2="97.4882976%" y2="77.6440416%" id="linearGradient-4">
+            <stop stop-color="#5776EC" offset="0%"></stop>
+            <stop stop-color="#4869E7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="V4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="subscribe-bg-img-bottom" transform="translate(-97.000000, -483.000000)">
+            <mask id="mask-3" fill="white">
+                <use xlink:href="#path-2"></use>
+            </mask>
+            <use id="Mask" fill="url(#linearGradient-1)" fill-rule="nonzero" opacity="0" xlink:href="#path-2"></use>
+            <path d="M253.833977,956.739738 C374.29327,956.739738 482.616543,852.953579 482.616543,732.171081 C482.616543,611.388583 374.29327,493.137455 253.833977,493.137455 C133.374684,493.137455 23,631.143808 23,750.975542 C23,870.807276 133.374684,956.739738 253.833977,956.739738 Z" id="Mask-Copy" fill="url(#linearGradient-4)" fill-rule="nonzero" mask="url(#mask-3)"></path>
+            <path d="M362.091664,1076.46445 C517.051429,1076.46445 654.260862,942.56694 654.260862,789.145321 C654.260862,632.408131 513.836746,483.3 362.091664,483.3 C288.93605,483.3 214.789295,523.61931 157.026331,590.756845 C101.167552,655.681159 67.3,738.330234 67.3,813.22937 C67.3,886.830727 99.9618095,953.474939 156.994069,1002.32256 C212.095512,1049.51645 286.020105,1076.46445 362.091664,1076.46445 Z" id="Mask-Copy-2" stroke="#3457DC" stroke-width="0.6" opacity="0.4" fill-rule="nonzero" mask="url(#mask-3)"></path>
+        </g>
+    </g>
+</svg>

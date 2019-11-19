@@ -1,0 +1,403 @@
+@import "color-variables";
+
+
+/** ==================================== Inputs ==================================== */
+
+input, textarea {
+  color: $dark-color;
+  background-color: #F7F9FD;
+}
+
+::placeholder {
+  color: #5D698D;
+  opacity: 1;
+}
+
+::-ms-input-placeholder {
+  color: #5D698D;
+}
+
+.input-group { position: relative; }
+
+.input-group:not( :last-child ) { margin-bottom: 15px; }
+
+.input-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-container {
+  height: 44px;
+  box-shadow: inset 0 0 0 1px #DCDFF1;
+  border-radius: 3px;
+  position: relative;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 0 20px 0 15px;
+  background-color: transparent;
+  color: $dark-color;
+  font-size: 16px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.input:focus, .input:hover { box-shadow: inset 0 0 0 1px #869FFD; }
+
+.input-password { padding-right: 50px; }
+
+.input-icon {
+  position: absolute;
+  left: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.input-error {
+  font-size: 12px;
+  color: #EA4D67;
+  margin-top: 5px;
+  display: none;
+}
+
+.input-group.error .input-error {
+  display: block;
+}
+
+.input-container.error ~ .input-error {
+  display: unset;
+}
+
+.input-password[type=password]:not(:placeholder-shown) { letter-spacing: 4px; }
+
+
+
+/** ==================================== Checkbox Inputs ==================================== */
+
+.checkbox-group {
+  display: inline-block;
+  position: relative;
+}
+
+.checkbox {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #DCDFF1;
+  border-radius: 3px;
+}
+
+.checkbox-group label {
+  color: #202842;
+  font-size: 14px;
+  line-height: 21px;
+  padding-left: 28px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  display: inline-block;
+}
+
+.checkbox-group label::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #DCDFF1;
+  border-radius: 3px;
+  transition: all 0.2s linear;
+  background-color: #fff;
+}
+
+.checkbox-group label::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 7px;
+  width: 7px;
+  height: 12px;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  border-color: #3457DC;
+  transform: rotate( 45deg );
+  opacity: 0;
+  transition: opacity 0.2s linear;
+}
+
+.checkbox-group input:checked + label::after { opacity: 1; }
+
+
+
+/** ==================================== Radio Button Inputs ==================================== */
+
+.radio-btn-group {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label {
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  line-height: 20px;
+  display: inline-block;
+  color: $dark-color;
+}
+
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border: 1px solid $light-purple-color;
+  border-radius: 100%;
+  background: #fff;
+}
+
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+  content: '';
+  width: 12px;
+  height: 12px;
+  background: $purple-color;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+[type="radio"]:not(:checked) + label:after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+[type="radio"]:checked + label:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.input-border {
+  padding: 10px 15px;
+  color: $dark-color;
+  border: 1px solid $light-purple-color;
+  border-radius: 3px;
+  font-size: 16px;
+  transition: border 0.3s ease-in-out;
+  width: 100%;
+  background-color: #ffffff;
+
+  &:hover, &:focus {
+    border: 1px solid $purple-color;
+  }
+}
+
+.incremental-input-wrapper {
+  position: relative;
+
+  .input-arrow {
+    width: 40px;
+    height: 22px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    cursor: pointer;
+  }
+
+  .up {
+    background: url("../style/img/arrow-purple-up.svg") no-repeat center $extra-light-purple-color;
+    right: 1px;
+    top: 1px;
+    border-top-right-radius: 3px;
+    transition: background 0.3s ease-in-out;
+    background-size: 10px 6px;
+
+    &:hover {
+      background: url("../style/img/arrow-up-white-icon.svg") no-repeat center $purple-color;
+      background-size: 10px 6px;
+    }
+  }
+
+  .down {
+    background: url("../style/img/arrow-purple-down.svg") no-repeat center $extra-light-purple-color;
+    right: 1px;
+    bottom: 1px;
+    border-bottom-right-radius: 3px;
+    background-size: 10px 6px;
+
+    &:hover {
+      background: url("../style/img/arrow-down-white-icon.svg") no-repeat center $purple-color;
+      background-size: 10px 6px;
+
+    }
+  }
+
+  &:hover {
+
+    .input-arrow {
+      opacity: 1;
+    }
+
+  }
+
+}
+
+.input-color-picker {
+  height: 30px;
+  width: 40px;
+  color: $dark-color;
+  border-radius: 3px;
+  font-size: 16px;
+  transition: border 0.3s ease-in-out;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+
+
+  &:hover, &:focus {
+    border: 1px solid $purple-color;
+
+  }
+}
+
+.slider-container {
+  padding: 7px 0;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 1px;
+  background: $light-purple-color;
+  outline: none;
+  -webkit-transition: .2s;
+  transition: background-color 0.3s ease-in-out;
+
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  background: #F7F9FD;
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  border: 2px solid #C4C7D9;
+  box-shadow: 0 2px 5px 0 rgba(134,159,253,0.25);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+  &:hover, &:focus {
+    box-shadow: 0 2px 5px 0 rgba(134,159,253,0.45);
+    border: 2px solid $purple-color;
+
+  }
+}
+
+
+//Range not working :(
+.slider::-moz-range-progress {
+  background: $purple-color;
+  height: 4px;
+}
+
+
+// ---------------------------  configuration inputs  ---------------------------
+
+.multi-input-group {
+  position: relative;
+  display: inline-block;
+  float: left;
+  width: 100%;
+
+  &.extra-small {
+    width: 72px;
+
+    .input-border {
+      padding-left: 15px;
+    }
+  }
+
+  &.half {
+    width: 49%;
+  }
+
+  &.third {
+    width: 32%;
+  }
+
+  &.quarter {
+    width: 23.5%;
+    margin-right: 1.5%;
+
+    .input-border {
+      padding-left: 15px;
+    }
+
+  }
+
+  .input-border {
+    padding-left: 55px;
+  }
+
+  .input-label {
+    font-weight: 600;
+
+    &.transparent {
+      opacity: 0;
+    }
+
+  }
+
+  .input-color-picker {
+    position: absolute;
+    top: 30px;
+    left: 7px;
+  }
+
+}
+
+.slider-value-wrapper {
+
+  .slider-value {
+    width: calc(100% - 100px);
+  }
+
+}
+
+.no-border-input {
+  width: 100%;
+  border-bottom: 1px solid transparent;
+  font-size: 20px;
+  padding: 10px 10px 10px 0;
+  background-color: #ffffff;
+  transition: border 0.3s ease-in-out;
+
+  &:hover, &:focus {
+    border-bottom: 1px solid $purple-color;
+  }
+}
+

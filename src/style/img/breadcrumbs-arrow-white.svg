@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="5px" height="8px" viewBox="0 0 5 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>breadcrumbs-arrow-white</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="breadcrumbs-arrow-white" fill="#FFFFFF">
+            <g id="icon/arrow-right">
+                <path d="M4.82010681,4.39604114 L1.04856165,7.83580725 C0.808645822,8.05473092 0.419663431,8.05473092 0.179864076,7.83580725 C-0.0599546918,7.61707835 -0.0599546918,7.2623211 0.179864076,7.04360989 L3.51709927,3.99994246 L0.179961137,0.956381253 C-0.0598576307,0.737563821 -0.0598576307,0.38284198 0.179961137,0.164113074 C0.419779904,-0.0547043579 0.808742883,-0.0547043579 1.04865871,0.164113074 L4.82020387,3.6039323 C4.94011325,3.71334987 5,3.8566019 5,3.99992475 C5,4.14331842 4.93999678,4.28667668 4.82010681,4.39604114 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

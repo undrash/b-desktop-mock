@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="14px" viewBox="0 0 13 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>underline</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Editor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Editor-link-Selected" transform="translate(-512.000000, -488.000000)" fill="#FFFFFF">
+            <g id="Group-2" transform="translate(411.000000, 473.000000)">
+                <g id="underline" transform="translate(101.000000, 15.000000)">
+                    <polygon id="Path" points="0.0221288889 12.2558789 12.9778711 12.2558789 12.9778711 14 0.0221288889 14"></polygon>
+                    <path d="M12.9778711,-2.84217094e-14 L9.28665111,-2.78388423e-14 L9.28665111,1.74272656 L10.2116444,1.74272656 L10.2116444,5.25585156 C10.2116444,7.19299219 8.54660444,8.76897656 6.5,8.76897656 C4.45339556,8.76897656 2.78835556,7.19299219 2.78835556,5.25585156 L2.78835556,1.74272656 L3.71334889,1.74272656 L3.71334889,-2.84217094e-14 L0.0221288889,-2.84217094e-14 L0.0221288889,1.74272656 L0.947122222,1.74272656 L0.947122222,5.25585156 C0.947122222,8.15858203 3.43321333,10.5117031 6.49997111,10.5117031 L6.5,10.5117031 C9.56675778,10.5117031 12.0528489,8.15858203 12.0528489,5.25585156 L12.0528489,1.74272656 L12.9778422,1.74272656 L12.9778711,-2.84217094e-14 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

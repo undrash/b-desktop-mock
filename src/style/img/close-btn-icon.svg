@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="172px" height="140px" viewBox="0 0 172 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M45.8702069,22 L184.925721,22 C191.041876,22 196,26.9581238 196,33.0742794 L196,100 L34.7959275,100 L34.7959275,33.0742794 C34.7959275,26.9581238 39.7540513,22 45.8702069,22 Z M0.185321101,139.929483 L17.4906243,122.858966 L34.7959275,139.929483 L17.4906243,157 L0.185321101,139.929483 Z" id="path-1"></path>
+        <filter x="-22.2%" y="-27.8%" width="144.4%" height="164.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="13.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.203921569   0 0 0 0 0.341176471   0 0 0 0 0.862745098  0 0 0 0.131453804 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="components/dismiss" transform="translate(-195.000000, -19.000000)">
+            <g id="components/design">
+                <g id="Group-20" transform="translate(3.000000, 19.000000)">
+                    <g id="Group-17-Copy-2" transform="translate(192.000000, 0.000000)">
+                        <g id="Group-17-Copy">
+                            <g id="Group-17" transform="translate(-39.000000, -7.000000)">
+                                <g id="Group-2">
+                                    <g id="Group-3">
+                                        <g id="Combined-Shape" fill-rule="nonzero">
+                                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                            <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                                        </g>
+                                        <path d="M180.434517,38.7386463 L176.221532,42.9520005 L180.434517,47.1651551 C181.061178,47.7920449 181.061178,48.8075226 180.434517,49.4344124 C180.121406,49.747518 179.710898,49.9041905 179.300588,49.9041905 C178.8896,49.9041905 178.479051,49.7477575 178.16618,49.4344124 L173.952276,45.2207788 L169.738692,49.4343725 C169.425621,49.7474781 169.015072,49.9041506 168.604404,49.9041506 C168.193855,49.9041506 167.783585,49.7477176 167.470235,49.4343725 C166.843574,48.8077621 166.843574,47.7922445 167.470235,47.1651152 L171.683101,42.9519606 L167.469996,38.7386463 C166.843335,38.111996 166.843335,37.0962788 167.469996,36.4696285 C168.096537,35.8434572 169.111672,35.8434572 169.738453,36.4696285 L173.952236,40.6829827 L178.165701,36.4696285 C178.792601,35.8434572 179.807857,35.8434572 180.434278,36.4696285 C181.061178,37.0962788 181.061178,38.111996 180.434517,38.7386463 Z" id="Path" fill="#DCDFF1"></path>
+                                        <path d="M140,39.5 C140,56.7355099 151.03893,71.3927396 166.432308,76.7872083 M179.5,79 C186.402408,79 192.891309,77.2295651 198.537367,74.1180311 M204.444884,70.1284234 C209.681872,65.8580807 213.803002,60.2713365 216.303669,53.8727946 C218.044479,49.4185238 219,44.5708488 219,39.5 C219,28.4569563 214.468351,18.472336 207.163226,11.3043121 C200.037265,4.31209005 190.272204,0 179.5,0 C162.594189,0 148.168962,10.6206401 142.532487,25.5537519" id="Shape" stroke="#FFA7BC" stroke-width="2" stroke-linecap="round" fill-rule="nonzero"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

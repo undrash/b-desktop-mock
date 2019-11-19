@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1942px" height="1064px" viewBox="0 0 1942 1064" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>header-bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="2.11346233%" y1="2.69824783%" x2="97.4882976%" y2="77.6440416%" id="linearGradient-1">
+            <stop stop-color="#F0F4FD" offset="0%"></stop>
+            <stop stop-color="#F0F4FD" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0.435342305" width="1942" height="1062.66589"></rect>
+        <linearGradient x1="97.4882976%" y1="77.6440416%" x2="2.11346233%" y2="2.69824783%" id="linearGradient-4">
+            <stop stop-color="#F7F9FD" offset="0%"></stop>
+            <stop stop-color="#F7FAFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="V4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Page">
+            <g id="bg">
+                <g id="header-bg">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Rectangle" fill="url(#linearGradient-1)" fill-rule="nonzero" xlink:href="#path-2"></use>
+                    <path d="M1747.70553,421 C1820.08816,421 1885.17839,358.540562 1885.17839,285.852574 C1885.17839,213.164587 1820.08816,142 1747.70553,142 C1675.3229,142 1609,225.053458 1609,297.169267 C1609,369.285076 1675.3229,421 1747.70553,421 Z" id="Mask" fill="url(#linearGradient-4)" fill-rule="nonzero" opacity="0.730026972" mask="url(#mask-3)"></path>
+                    <path d="M1546.29576,737.402922 C1622.6521,737.402922 1704.89474,707.195019 1768.45061,656.458366 C1835.2482,603.133858 1874.7,532.986922 1874.7,459.702922 C1874.7,384.799225 1839.70058,305.174252 1781.52096,243.066658 C1722.50285,180.063975 1646.54556,142.3 1572.5,142.3 C1497.40021,142.3 1420.49082,175.229558 1361.4658,230.829935 C1301.65365,287.171774 1266.3,360.915348 1266.3,435.202922 C1266.3,510.862898 1296.55306,586.744582 1348.38081,644.24196 C1401.42802,703.092181 1472.09441,737.402922 1546.29576,737.402922 Z" id="Oval" stroke="#FFFFFF" stroke-width="0.6" opacity="0.900000036" fill-rule="nonzero" mask="url(#mask-3)"></path>
+                    <path d="M426,3077 C1296.95305,3077 2003,2370.95305 2003,1500 C2003,1188.85752 1942.04376,872.378862 1786.5,628 C1506.64417,188.311189 985.810566,-77 426,-77 C-444.95305,-77 -1151,629.04695 -1151,1500 C-1151,2370.95305 -444.95305,3077 426,3077 Z" id="Oval" fill="#F7F9FD" fill-rule="nonzero" mask="url(#mask-3)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,78 @@
+@import "color-variables";
+
+.preview-section {
+
+  // width is dependednt of .configuration-section
+
+  width: calc(100% - 420px);
+  display: inline-block;
+  background-color: $extra-light-purple-color;
+  height: calc(100vh - 150px);
+  padding: 20px;
+
+  &.large {
+    width: calc(100% - 500px);
+  }
+}
+
+
+//Themes
+
+.themes-guide-preview-wrapper {
+  max-width: 700px;
+  height: auto;
+  margin: 30px auto;
+  overflow: auto;
+
+  .conf-label {
+    margin-bottom: 5px;
+  }
+
+  .themes-modal-preview {
+    width: 100%;
+    height: 450px;
+    background-color: rgba(155, 173, 255, 0.56);
+    border-radius: 5px;
+  }
+
+  .themes-tooltip-preview-wrapper {
+    float: left;
+  }
+
+  .themes-tooltip-preview {
+    width: 330px;
+    height: 200px;
+    background-color: rgba(155, 173, 255, 0.56);
+    border-radius: 5px;
+  }
+
+  .themes-hotspot-preview-wrapper {
+    float: right;
+  }
+
+  .themes-hotspot-preview {
+    width: 330px;
+    height: 200px;
+    background-color: rgba(155, 173, 255, 0.56);
+    border-radius: 5px;
+  }
+}
+
+@media only screen and (min-width: 1650px) {
+
+  .preview-section {
+    width: 70%;
+
+    &.large {
+      width: 70%;
+    }
+  }
+
+  .configuration-section {
+    width: 30%;
+
+    &.large{
+      width: 30%;
+    }
+  }
+}

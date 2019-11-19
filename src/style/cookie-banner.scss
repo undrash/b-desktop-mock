@@ -1,0 +1,68 @@
+
+
+.cookie-banner {
+  background-color: #202842;
+  width: 100%;
+  text-align: left;
+  padding: 30px 15px;
+  position: fixed;
+  bottom: -200px;
+  z-index: 10000000000; // Needs to cover intercom
+  transition: bottom 0.3s ease-in-out;
+
+  .section {
+    text-align: left;
+  }
+
+  .cookie-img {
+    display: inline-block;
+    margin-right: 25px;
+    width: 160px;
+  }
+
+  .cookie-content-wrapper {
+    display: inline-block;
+    width: calc(100% - 200px);
+    vertical-align: top;
+    padding-top: 15px;
+    position: relative;
+  }
+
+  h2 {
+    color: #ffffff;
+    max-width: 840px;
+  }
+
+  p {
+    color: #ffffff;
+    font-size: 14px;
+    max-width: 840px;
+    line-height: 19px;
+    margin-top: 10px;
+    padding-right: 55px;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+  .close-cookie-btn {
+    background: url("img/website-img/close-cookie-banner-icon.svg") no-repeat center;
+    width: 25px;
+    height: 25px;
+    opacity: 0.4;
+    position: absolute;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+    top: 45px;
+    right: 0;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  &.active {
+    bottom: 0;
+  }
+}

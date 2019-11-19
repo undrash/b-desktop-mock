@@ -1,0 +1,295 @@
+<div id="authentication-wrapper" class="state-login">
+
+
+    <!-- Login -->
+    <div class="authetication-form-wrapper login-wrapper">
+
+        <form action="/authentication/login" method="post" class="authetication-form-container login-container">
+
+            <h1 class="authentication-title">Log in to your account</h1>
+
+            <h2 class="authentication-description">Log in to your account so you can continue building and editing your onboarding flows.</h2>
+
+            <div class="input-wrapper">
+
+                <div class="input-group">
+
+                    <label class="input-label" for="authentication-login-email-input">Email</label>
+
+                    <div class="input-container input-type-text">
+
+                        <input id="authentication-login-email-input" name="email" type="text" class="input input-email" placeholder="Enter your email address" spellcheck="false">
+
+                    </div>
+
+                    <span class="input-error">Please enter your email address</span>
+
+                </div>
+                <!-- email -->
+
+                <div class="input-group">
+
+                    <label class="input-label" for="authentication-login-password-input">Password</label>
+
+                    <div class="input-container input-type-password">
+
+                        <input id="authentication-login-password-input" name="password" type="password" class="input input-password" placeholder="Enter your password" spellcheck="false">
+
+                        <span id="authentication-login-password-toggle-button" class="password-toggle-button pointer"></span>
+
+                    </div>
+
+                    <span class="input-error">Please enter your password</span>
+
+                </div>
+                <!-- password -->
+
+            </div>
+
+
+            <div class="authentication-footer">
+
+                <div class="checkbox-wrapper">
+
+                    <div class="checkbox-group">
+
+                        <input id="remember-me" name="remember" type="checkbox">
+
+                        <label for="remember-me" class="noselect pointer">Remember Me</label>
+
+                    </div>
+
+                    <p id="authentication-login-forgot-password" class="accent pointer noselect">Forgot Password?</p>
+
+                </div>
+
+                <button type="submit" id="authentication-login-btn" class="primary-button">Log In</button>
+
+                <div class="social-media-auth-wrapper">
+
+                    <p>Or log in using</p>
+
+                    <div class="social-media-auth-container">
+
+                        <a href="/authentication/oauth/google" class="button-google"></a>
+                        <a href="/authentication/oauth/facebook" class="button-twitter"></a>
+                        <a href="/authentication/oauth/twitter" class="button-linkedin"></a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </form>
+
+    </div>
+
+
+
+
+
+    <!-- Signup -->
+    <div class="authetication-form-wrapper signup-wrapper">
+
+        <form action="/authentication/sign-up" method="post" class="authetication-form-container signup-container">
+
+            <h1 class="authentication-title">Sign Up for an Account</h1>
+
+            <h2 class="authentication-description">Let’s get you all set up so you can start creating your first onboarding experience.</h2>
+
+            <div class="input-wrapper">
+
+                <div class="input-group-inline clearfix">
+
+                    <div class="input-group first-name">
+
+                        <label class="input-label" for="authentication-signup-first-name-input">First Name</label>
+
+                        <div class="input-container input-type-text">
+
+                            <input id="authentication-signup-first-name-input" name="firstName" type="text" class="input input-text" placeholder="Your first name" spellcheck="false">
+
+                        </div>
+
+                        <span class="input-error">Please enter your first name</span>
+
+                    </div>
+                    <!-- First name -->
+
+                    <div class="input-group last-name">
+
+                        <label class="input-label" for="authentication-signup-last-name-input">Last Name</label>
+
+                        <div class="input-container input-type-text">
+
+                            <input id="authentication-signup-last-name-input" name="lastName" type="text" class="input input-text" placeholder="Your last name" spellcheck="false">
+
+                        </div>
+
+                        <span class="input-error">Please enter your last name</span>
+
+                    </div>
+                    <!-- Last name -->
+
+                </div>
+
+
+
+                <div class="input-group">
+
+                    <label class="input-label" for="authentication-signup-email-input">Email</label>
+
+                    <div class="input-container input-type-text">
+
+                        <input id="authentication-signup-email-input" name="email" type="text" class="input input-email" placeholder="Enter your email address" spellcheck="false">
+
+                    </div>
+
+                    <span class="input-error">Please enter your email address</span>
+
+                </div>
+                <!-- Email -->
+
+                <div class="input-group">
+
+                    <label class="input-label" for="authentication-signup-password-input">Password</label>
+
+                    <div class="input-container input-type-password">
+
+                        <input id="authentication-signup-password-input" name="password" type="password" class="input input-password" placeholder="Enter a strong password" spellcheck="false">
+
+                        <span id="authentication-signup-password-toggle-button" class="password-toggle-button pointer"></span>
+
+                    </div>
+
+                    <span class="input-error">Please enter a password</span>
+
+                </div>
+                <!-- Password -->
+
+            </div>
+
+
+            <div class="authentication-footer">
+
+                <div class="checkbox-wrapper">
+
+                    <div class="checkbox-group">
+                        <input id="accept-terms" type="checkbox">
+                        <label for="accept-terms" class="noselect pointer">I accept BoardMe’s <a href="">Terms & Conditions</a></label>
+                    </div>
+
+                </div>
+
+                <button id="authentication-signup-btn" class="primary-button">Sign up</button>
+
+                <div class="social-media-auth-wrapper">
+
+                    <p>Or sign up in using</p>
+
+                    <div class="social-media-auth-container">
+
+                        <a href="#" class="button-google"></a>
+                        <a href="#" class="button-twitter"></a>
+                        <a href="#" class="button-linkedin"></a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </form>
+
+    </div>
+
+
+
+
+
+
+    <!-- Forgot Password-->
+    <div class="authetication-form-wrapper forgot-pass-wrapper">
+
+        <form  action="/authentication/forgot" method="post" class="authetication-form-container forgot-pass-container">
+
+            <h1 class="authentication-title">Forgot your password?</h1>
+
+            <h2 class="authentication-description">Don’t worry! Resetting your password is easy. Just type in the email you registered to BoardMe.</h2>
+
+            <div class="input-wrapper">
+
+                <div class="input-group">
+
+                    <label id="authentication-forgot-pw-email-input-label" class="input-label" for="authentication-forgot-pw-email-input">Email</label>
+
+                    <div class="input-container input-type-text">
+
+                        <input id="authentication-forgot-pw-email-input" type="email" name="email" class="input input-email" placeholder="Enter your email address" spellcheck="false">
+
+                    </div>
+
+                    <span id="authentication-forgot-pw-email-input-error" class="input-error">Please enter your email address</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="authentication-footer">
+
+                <button id="authentication-forgotpw-btn" class="primary-button">Send</button>
+
+            </div>
+
+
+        </form>
+
+    </div>
+
+
+
+    <!-- BLue background -->
+    <div class="authentication-form-switch-wrapper">
+
+
+        <div class="authentication-form-switch-content-container signup-button-container">
+
+            <h2 class="authentication-form-switch-content-title">Don’t Have an Account Yet?</h2>
+
+            <p class="authentication-form-switch-content-subtitle">Let’s get you all set up so you can start creating your first onboarding experience.</p>
+
+            <button class="secondary-button">Sign Up</button>
+
+        </div>
+
+        <div class="authentication-form-switch-content-container login-button-container">
+
+            <h2 class="authentication-form-switch-content-title">Already Signed up?</h2>
+
+            <p class="authentication-form-switch-content-subtitle">Log in to your account so you can continue building and editing your onboarding flows.</p>
+
+            <button class="secondary-button">Log In</button>
+
+        </div>
+
+        <div class="authentication-form-switch-content-container try-login-button-container">
+
+            <h2 class="authentication-form-switch-content-title">Remembered your password?</h2>
+
+            <button class="secondary-button">Try logging in</button>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- Logo -->
+    <div class="logo">BoardMe</div>
+
+
+</div>

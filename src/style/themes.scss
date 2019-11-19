@@ -1,0 +1,240 @@
+@import "color-variables";
+
+.mini-notification {
+  background-color: #133acc;
+  padding: 5px 15px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 12px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 25px;
+}
+
+.editor-page-header {
+  position: relative;
+
+  .page-title {
+    left: 20px;
+  }
+
+  .mini-notification {
+    top: 25px;
+  }
+
+}
+
+.header-button-wrapper {
+  width: 230px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+
+  .secondary-button, .primary-button {
+    width: 45%;
+    display: inline-block;
+    float: right;
+    margin-left: 10px;
+    line-height: 36px;
+  }
+}
+
+
+
+#themes-configuration-header {
+  height: 28px;
+  overflow: hidden;
+
+  .conf-label {
+    display: inline-block;
+    line-height: 28px;
+    margin-top: 0;
+  }
+
+  .theme-summary {
+    float: right;
+  }
+
+  .xs-font-size {
+    display: inline-block;
+  }
+
+  .xs-btn {
+    margin-left: 10px;
+  }
+}
+
+.dropdown-bg {
+  width: calc(100% - 40px);
+  max-height: 300px;
+  overflow-y: scroll;
+
+  .dropdown-item {
+    padding-left: 15px;
+  }
+}
+
+//- adjust this to hide/show themes dropdown
+
+#themes-configuration-options-dropdown-themes-list {
+  display: none;
+}
+
+#themes-configuration-themes-list-container {
+  clear: both;
+  overflow: hidden;
+
+  .link {
+    float: right;
+    margin-top: 5px;
+  }
+}
+
+#themes-configuration-new-theme-container {
+  margin-top: 15px;
+  padding: 15px 15px 0;
+  border: 1px solid $light-purple-color;
+  border-radius: 3px;
+  background-color: $extra-light-purple-color;
+
+  .conf-label {
+    margin-bottom: 5px;
+  }
+
+  #themes-configuration-new-theme-input-group {
+    display: inline-block;
+    width: calc(100% - 110px);
+
+  }
+
+  #themes-configuration-new-theme-create-btn {
+    margin-left: 15px;
+    display: inline-block;
+  }
+}
+
+#themes-configuration-tab-container {
+
+  #themes-configuration-tab {
+    margin-top: 15px;
+    overflow: hidden;
+  }
+
+  .section-divider-line {
+    top: 320px;
+    left: 0;
+  }
+
+}
+
+#themes-configuration-tab-content-container {
+
+  .custom-color-input {
+    margin-right: 2%;
+    width: 178px;
+  }
+
+  .custom-slider-input {
+    width: 178px;
+    margin-right: 2%;
+  }
+
+  .custom-value-input {
+    float: left;
+  }
+
+  #themes-configuration-tab-text-color {
+    overflow: hidden;
+  }
+
+}
+
+
+//General tab CSS
+
+#themes-configuration-tab-content-container-general {
+
+  display: block;
+
+  .fonts-header {
+    margin-top: 0;
+    display: inline-block;
+  }
+
+  #themes-configuration-import-google-fonts-btn {
+    float: right;
+  }
+
+  #themes-configuration-options-dropdown-title-fonts-list {
+    display: none;
+  }
+
+  #themes-configuration-options-dropdown-standard-fonts-list {
+    display: none;
+  }
+}
+
+
+//Modal tab CSS
+
+#themes-configuration-tab-content-container-modal {
+  display: none;
+}
+
+
+//Tooltip & hotspot tab CSS
+
+#themes-configuration-tab-content-container-tooltip-hotspot {
+  display: none;
+
+  #themes-configuration-tab-content-shadow {
+
+    .multi-input-group {
+
+      &.extra-small {
+
+        .input-border {
+          padding-left: 15px;
+        }
+      }
+    }
+
+  }
+
+  #themes-configuration-tab-content-hotspot {
+
+    .input-label {
+      font-weight: 600;
+    }
+
+    .object-wrapper {
+      display: inline-block;
+    }
+
+    .multi-input-group:last-child {
+      display: inline-block;
+    }
+
+    .animation {
+      .radio-btn-group {
+        margin-top: 10px;
+      }
+    }
+
+    .radio-btn-container {
+      width: 40%;
+      display: inline-block;
+      margin-right: 15px;
+    }
+  }
+
+  .hotspot-icon-wrapper {
+    float: initial;
+    margin-right: 15px;
+  }
+
+}
+
+
+
+

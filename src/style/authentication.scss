@@ -1,0 +1,428 @@
+
+
+
+#authentication-wrapper {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+  position: absolute;
+  left: 28px;
+  top: 25px;
+}
+
+
+.authentication-title {
+
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+.authentication-description {
+
+  font-size: 14px;
+  text-align: center;
+  line-height: 21px;
+
+}
+
+
+.input-wrapper {
+  margin-top: 25px;
+}
+
+
+.authentication-footer { margin-top: 25px; }
+
+
+#authentication-login-forgot-password {
+  float: right;
+  line-height: 21px;
+  color: #3457DC;
+  cursor: pointer;
+}
+
+
+.checkbox-wrapper { margin-bottom: 23px; }
+
+
+.social-media-auth-wrapper {
+
+  margin-top: 30px;
+
+}
+
+.social-media-auth-wrapper > p {
+
+  text-align: center;
+  font-size: 12px;
+  color: #5D698D;
+
+}
+
+
+.social-media-auth-container {
+
+  height: 50px;
+  margin: 30px auto 0;
+  position: relative;
+
+}
+
+
+.social-media-auth-container a {
+
+  position: absolute;
+  display: block;
+  width: 28%;
+  height: 100%;
+  border-radius: 3px;
+  border: 1px solid #DCDFF1;
+  transition: all 0.2s linear;
+
+}
+
+.social-media-auth-container a::after {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50% );
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+
+.social-media-auth-container a:nth-child( 1 ) {
+  left: 0;
+}
+
+.social-media-auth-container a:nth-child( 1 )::after {
+  background-image: url( "img/google-icon.svg" );
+}
+
+.social-media-auth-container a:nth-child( 2 ) {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX( -50% );
+}
+
+.social-media-auth-container a:nth-child( 2 )::after {
+  background-image: url( "img/facebook-icon.svg" );
+}
+
+.social-media-auth-container a:nth-child( 3 ) {
+  right: 0;
+}
+
+.social-media-auth-container a:nth-child( 3 )::after {
+  background-image: url( "img/twitter-icon.svg" )
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/** =============================== Blue background =============================== */
+
+
+.authentication-form-switch-wrapper {
+  position: absolute;
+  width: 700px;
+  height: 100%;
+  top: 0;
+  background:
+    url( "img/authentication-bottom-image.svg" ) -230px calc( 100% + 75px ) / 140% no-repeat,
+    url( "img/authentication-top-image.svg" ) 110% -20px / 50% no-repeat,
+    linear-gradient( 232deg, #102B8F 0%, #3E67FF 100% );
+  transition: left 0.4s cubic-bezier( 0.41, 0.97, 0.68, 1.12 );
+}
+
+
+.authentication-form-switch-content-container {
+  width: 380px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  transform: translate( -50%, -85% );
+  text-align: center;
+}
+
+
+.authentication-form-switch-content-title {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+
+.authentication-form-switch-content-subtitle {
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
+
+.authentication-form-switch-content-container .secondary-button { width: 177px; }
+
+
+
+
+/** -------- Login -------- */
+
+.state-login .logo { color: #3457DC; }
+
+
+.state-login .login-button-container { display: none; }
+.state-login .try-login-button-container { display: none; }
+
+
+.state-login .authentication-form-switch-wrapper {
+  left: calc( 100% - 700px );
+  clip-path: polygon(
+      0 0,
+      700px 0,
+      700px 100%,
+      150px 100%
+  );
+
+}
+
+
+.state-login .authentication-form-switch-content-container { left: calc( 50% + 40px ); }
+
+
+
+
+/** -------- Signup -------- */
+
+.state-signup .logo,
+.state-forgot-password .logo {
+  color: white;
+  transition: color 0.05s linear 0.2s;
+}
+
+
+.state-signup .signup-button-container { display: none; }
+.state-signup .try-login-button-container { display: none; }
+
+
+.state-signup .authentication-form-switch-wrapper,
+.state-forgot-password .authentication-form-switch-wrapper {
+  left: 0;
+  clip-path: polygon(
+      0 0,
+      700px 0,
+      550px 100%,
+      0 100%
+  );
+}
+
+
+.state-signup .authentication-form-switch-content-container,
+.state-forgot-password .authentication-form-switch-content-container {
+  left: calc( 50% - 40px );
+}
+
+
+.state-signup .authentication-form-switch-wrapper {
+  background:
+    url( "img/authentication-bottom-image.svg" ) -340px calc( 100% + 75px ) / 140% no-repeat,
+    url( "img/authentication-top-image.svg" ) 100% -20px / 50% no-repeat,
+    linear-gradient( 142deg, #102B8F 2.7%, #3E67FF 100% );
+}
+
+
+/** -------- Forgot Pass -------- */
+
+.state-forgot-password .login-button-container { display: none; }
+.state-forgot-password .signup-button-container { display: none; }
+
+
+.state-forgot-password .authentication-form-switch-wrapper {
+  background:
+    url( "img/authentication-bottom-image.svg" ) -340px calc( 100% + 75px ) / 140% no-repeat,
+    url( "img/authentication-top-image.svg" ) 100% -20px / 50% no-repeat,
+    linear-gradient( 142deg, #102B8F 0%, #3E67FF 100% );
+}
+
+
+.try-login-button-container .authentication-form-switch-content-title {
+  text-align: center;
+  width: 180px;
+  margin: 0 auto 30px;
+}
+
+
+
+
+
+/** =============================== Form wrappers =============================== */
+
+
+.authetication-form-wrapper {
+  position: absolute;
+  width: calc( 100% - 700px );
+  height: 100%;
+}
+
+
+.authetication-form-container {
+  width: 387px;
+  position: absolute;
+  top: 50%;
+}
+
+
+.authetication-form-wrapper.signup-wrapper,
+.authetication-form-wrapper.forgot-pass-wrapper {
+  right: 0;
+}
+
+
+
+/** -------- Login -------- */
+
+.login-container {
+  transform: translate( -50%, -50% );
+}
+
+
+#authentication-wrapper.state-login .login-container {
+  visibility: visible;
+  opacity: 1;
+  transition: left 0.2s ease-out 0.1s;
+  left: calc( 50% + 50px );
+}
+
+
+#authentication-wrapper:not( .state-login ) .login-wrapper {
+  pointer-events: none;
+}
+
+
+#authentication-wrapper:not( .state-login ) .login-container {
+  visibility: hidden;
+  opacity: 0;
+  left: calc( 50% + 80px );
+}
+
+
+/** -------- Sign up -------- */
+
+.signup-container {
+  transform: translate( -50%, -50% );
+}
+
+
+#authentication-wrapper.state-signup .signup-container {
+  visibility: visible;
+  opacity: 1;
+  transition: left 0.2s ease-out 0.1s;
+  left: calc( 50% - 50px );
+}
+
+
+#authentication-wrapper:not( .state-signup ) .signup-wrapper {
+  pointer-events: none;
+}
+
+
+#authentication-wrapper:not( .state-signup ) .signup-container {
+  visibility: hidden;
+  opacity: 0;
+  left: calc( 50% - 80px );
+}
+
+
+.input-group.first-name,
+.input-group.last-name {
+  width: 50%;
+}
+
+
+.input-group.first-name {
+  float: left;
+}
+
+
+.input-group.last-name {
+  float: right;
+}
+
+
+.input-group.first-name .input-container,
+.input-group.first-name .input {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+
+.input-group.last-name .input-container,
+.input-group.last-name .input {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: -1px;
+}
+
+
+.signup-container .checkbox-group a {
+  color: #3457DC;
+}
+
+
+
+
+/** -------- Forgot Pass -------- */
+
+.forgot-pass-container {
+  transform: translate( -50%, -50% );
+}
+
+
+#authentication-wrapper.state-forgot-password .forgot-pass-container {
+  visibility: visible;
+  opacity: 1;
+  transition: left 0.2s ease-out 0.1s;
+  left: calc( 50% - 50px );
+}
+
+
+#authentication-wrapper:not( .state-forgot-password ) .forgot-pass-wrapper {
+  pointer-events: none;
+}
+
+
+#authentication-wrapper:not( .state-forgot-password ) .forgot-pass-container {
+  visibility: hidden;
+  opacity: 0;
+  left: calc( 50% - 80px );
+}
+
+
+
+
+
+
+
+
+

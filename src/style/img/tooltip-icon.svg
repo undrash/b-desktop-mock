@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>tooltip-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M9.29591203,20.2662761 L6.74843738,23 L4.20096274,20.2662761 L1.84571324,20.2662761 C0.826353963,20.2662761 -7.63342913e-16,19.4399221 -8.8817842e-16,18.4205628 L0,1.84571324 C-1.24835507e-16,0.826353963 0.826353963,5.79188505e-14 1.84571324,5.77315973e-14 L35.1542868,5.68434189e-14 C36.173646,5.66561656e-14 37,0.826353963 37,1.84571324 L37,18.4205628 C37,19.4399221 36.173646,20.2662761 35.1542868,20.2662761 L9.29591203,20.2662761 Z" id="path-1"></path>
+        <filter x="-21.6%" y="-30.4%" width="143.2%" height="169.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.203921569   0 0 0 0 0.341176471   0 0 0 0 0.862745098  0 0 0 0.131453804 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="components/add-new-guide" transform="translate(-22.000000, -137.000000)" fill-rule="nonzero">
+            <g id="Group-6">
+                <g transform="translate(0.000000, 130.000000)">
+                    <g id="tooltip-icon" transform="translate(22.000000, 7.000000)">
+                        <circle id="Oval" fill="#E3E9F6" cx="30" cy="30" r="30"></circle>
+                        <g id="Group-12" transform="translate(12.000000, 19.000000)">
+                            <g id="Combined-Shape">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                            </g>
+                            <g id="Group-14" transform="translate(3.100000, 4.100000)" fill="#5D698D" fill-opacity="0.33">
+                                <rect id="Rectangle" x="0.405988024" y="0.410869565" width="29.9416168" height="1.02717391" rx="0.513586957"></rect>
+                                <rect id="Rectangle-Copy-6" x="0.405988024" y="3.4923913" width="17.254491" height="1.02717391" rx="0.513586957"></rect>
+                            </g>
+                            <g id="Group-13" transform="translate(13.600000, 13.150000)">
+                                <rect id="Rectangle-Copy-7" fill="#DCDFF1" opacity="0" x="0" y="1.06476318" width="7.05205479" height="1.82477082" rx="0.912385409"></rect>
+                                <rect id="Rectangle" fill="#5D698D" x="8.81506849" y="0.067723453" width="10.8986301" height="3.81885027" rx="0.482142857"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="554px" height="303px" viewBox="0 0 554 303" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>no-projects-illustration</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="6.67626709%" y1="-23.9873289%" x2="84.183352%" y2="97.25077%" id="linearGradient-1">
+            <stop stop-color="#F4F6FB" offset="0%"></stop>
+            <stop stop-color="#E6EAF6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F3F6FD" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="no-projects-illustration" fill-rule="nonzero">
+            <g id="bubbles">
+                <rect id="bg-safespace" fill="#F7F9FD" x="0" y="0" width="554" height="303"></rect>
+                <circle id="bubble-5" fill="#E6EAF6" cx="478" cy="214" r="5"></circle>
+                <circle id="bubble-4" stroke="#E6EAF6" stroke-width="4" fill="#E6EAF6" cx="421" cy="50" r="13"></circle>
+                <circle id="bubble-3" stroke="#E6EAF6" stroke-width="4" fill="#E6EAF6" cx="394" cy="77" r="7"></circle>
+                <circle id="bubble-2" stroke="#E6EAF6" stroke-width="4" fill="#E6EAF6" cx="128" cy="123" r="5"></circle>
+                <circle id="bubble-1" fill="#E6EAF6" cx="97" cy="263" r="5"></circle>
+            </g>
+            <path d="M163,165.382752 C132.333333,135.856292 137.166667,111.788179 177.5,93.1784135 C217.833333,74.568648 256.333333,76.5257635 293,99.0497602 C349.333333,85.0165867 391,90 418,114 C445,138 442.666667,166.03876 411,198.116279 C455,212.65579 475.5,232.098048 472.5,256.443054 C469.5,280.788059 407,285.182986 285,269.627832 C187.333333,291.080115 129.5,284.487726 111.5,249.850665 C93.5,215.213603 110.666667,187.057632 163,165.382752 Z" id="bubble-bg-shape" fill="url(#linearGradient-1)"></path>
+            <ellipse id="shadow1" fill="#DCE1F3" cx="289" cy="234" rx="48" ry="5"></ellipse>
+            <g id="Group" transform="translate(269.333333, 134.000000)" fill="#B9BFD0">
+                <path d="M10.8390805,85.2631579 L6.08045977,99.6052632 L0,99.6052632 L15.5977011,54.0789474 L22.6034483,54.0789474 L38.2011494,99.6052632 L31.8563218,99.6052632 L27.0977011,85.2631579 L10.8390805,85.2631579 Z M25.908046,80.6578947 L21.4137931,67.6315789 C20.3563218,64.6052632 19.6954023,61.9736842 19.0344828,59.3421053 L18.9022989,59.3421053 C18.2413793,61.9736842 17.5804598,64.8684211 16.6551724,67.6315789 L12.1609195,80.7894737 L25.908046,80.7894737 L25.908046,80.6578947 Z" id="Shape"></path>
+                <path d="M27.0977011,14.6052632 L31.9885057,0.263157895 L38.3333333,0.263157895 L22.7356322,45.7894737 L15.7298851,45.7894737 L0,0.263157895 L6.08045977,0.263157895 L10.8390805,14.6052632 L27.0977011,14.6052632 Z M12.1609195,19.2105263 L16.6551724,32.3684211 C17.5804598,35.1315789 18.2413793,38.0263158 18.9022989,40.6578947 L19.0344828,40.6578947 C19.6954023,38.0263158 20.3563218,35.2631579 21.4137931,32.3684211 L25.908046,19.3421053 L12.1609195,19.3421053 L12.1609195,19.2105263 Z" id="Shape"></path>
+            </g>
+            <path d="M338.994253,212.289474 L238.005747,212.289474 C234.701149,212.289474 232.057471,209.657895 232.057471,206.368421 L232.057471,143.342105 C232.057471,140.052632 234.701149,137.421053 238.005747,137.421053 L338.994253,137.421053 C342.298851,137.421053 344.942529,140.052632 344.942529,143.342105 L344.942529,206.368421 C344.942529,209.657895 342.298851,212.289474 338.994253,212.289474 Z" id="board-bg" fill="url(#linearGradient-2)"></path>
+        </g>
+    </g>
+</svg>

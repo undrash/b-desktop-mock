@@ -1,0 +1,46 @@
+
+@import "mixins";
+
+form {
+  border: 1px solid black;
+}
+
+.outline {
+  outline: 3px solid blue !important;
+  cursor: default;
+}
+
+.disable-clicks {
+  pointer-events: none !important;
+}
+
+
+#boardme-andrei-custom {
+  text-align: center;
+  line-height: 100px;
+  width: 70%;
+  height: 100px;
+  background-color: blue;
+  position: fixed !important;
+  bottom: 0;
+  @include center( "horizontal" );
+  z-index: 100000000000000;
+  color: white;
+  font-size: 40px;
+}
+
+
+#boardme-andrei-header {
+  text-align: center;
+  line-height: 100px;
+  width: 80%;
+  height: 100px;
+  background-color: blue;
+  position: fixed !important;
+  top: 0;
+  @include center( "horizontal" );
+  z-index: 100000000000000;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}

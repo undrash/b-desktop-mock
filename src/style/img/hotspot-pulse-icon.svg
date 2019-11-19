@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>hotspot-pulse-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Themes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Themes-Tooltip-&amp;-Hotspot" transform="translate(-1014.000000, -812.000000)" fill-rule="nonzero">
+            <g id="Group-14-Copy-2" transform="translate(982.000000, 780.000000)">
+                <g id="hotspot-pulse-icon" transform="translate(34.000000, 34.000000)">
+                    <circle id="Oval" stroke="#A6B3E5" stroke-width="3" opacity="0.5" cx="17" cy="17" r="17"></circle>
+                    <circle id="Oval" fill="#A6B3E5" cx="17" cy="17" r="7"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

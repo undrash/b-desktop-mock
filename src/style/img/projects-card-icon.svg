@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="108px" height="108px" viewBox="0 0 108 108" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>projects-card-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Editor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Projects" transform="translate(-612.000000, -247.000000)" fill-rule="nonzero">
+            <g id="Group-9" transform="translate(181.000000, 198.000000)">
+                <g id="Group-4-Copy" transform="translate(332.000000, 0.000000)">
+                    <g id="projects-card-icon" transform="translate(99.000000, 49.000000)">
+                        <g id="Group-10" transform="translate(24.000000, 29.000000)">
+                            <g id="Group-6" transform="translate(24.708227, 18.508722) rotate(-19.000000) translate(-24.708227, -18.508722) translate(2.708227, 6.508722)">
+                                <rect id="Combined-Shape" stroke="#DCDFF1" stroke-width="1.2972973" x="0.648648649" y="0.648648649" width="42.4864865" height="22.4121458" rx="1.94594595"></rect>
+                                <rect id="Rectangle" fill="#DCDFF1" x="6.5348931" y="7.24455206" width="31.3674869" height="1.31719128"></rect>
+                                <rect id="Rectangle-Copy" fill="#DCDFF1" x="33.5348931" y="14.4891041" width="4.36748689" height="1.31719128"></rect>
+                            </g>
+                            <g id="Group-6-Copy" transform="translate(36.691964, 34.583333) rotate(-4.000000) translate(-36.691964, -34.583333) translate(14.691964, 20.583333)">
+                                <path d="M10.2315869,26.2881097 L13.4338796,23.0607945 L13.7040386,23.0607945 L41.8378378,23.0607945 C42.5543154,23.0607945 43.1351351,22.4799747 43.1351351,21.7634972 L43.1351351,1.94594595 C43.1351351,1.22946843 42.5543154,0.648648649 41.8378378,0.648648649 L1.94594595,0.648648649 C1.22946843,0.648648649 0.648648649,1.22946843 0.648648649,1.94594595 L0.648648649,21.7634972 C0.648648649,22.4799747 1.22946843,23.0607945 1.94594595,23.0607945 L7.02929419,23.0607945 L10.2315869,26.2881097 Z" id="Combined-Shape" stroke="#DCDFF1" stroke-width="1.2972973" fill="#F7F9FD"></path>
+                                <rect id="Rectangle" fill="#DCDFF1" x="28" y="13" width="10" height="5"></rect>
+                                <rect id="Rectangle" fill="#DCDFF1" x="6.5348931" y="7.24455206" width="31.3674869" height="1.31719128"></rect>
+                                <rect id="Rectangle-Copy" fill="#DCDFF1" x="6.5348931" y="14.4891041" width="8.367487" height="1.31719128"></rect>
+                            </g>
+                        </g>
+                        <circle id="Oval" stroke="#DCDFF1" opacity="0.179106213" cx="54" cy="54" r="53.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,46 @@
+@import "color-variables.scss";
+
+
+
+.privacy-header {
+  margin: 60px auto 80px;
+  text-align: center;
+
+  h3 {
+    margin-top: 10px;
+    font-weight: 600;
+    color: $grey-color;
+    opacity: 0.7;
+    text-transform: uppercase;
+  }
+}
+
+.privacy-container {
+  max-width: 920px;
+  text-align: left;
+  margin: 0 auto 195px;
+  padding: 0 35px;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+  ol, li {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .privacy-header {
+    margin: 40px 0;
+  }
+
+  .privacy-container {
+    padding: 0 15px;
+    margin-bottom: 80px;
+  }
+
+  .margin-top-30 {
+    margin-top: 20px;
+  }
+
+}

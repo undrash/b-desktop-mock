@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="8px" viewBox="0 0 8 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="buttons/add-guide-hovered" transform="translate(-6.000000, -6.000000)" fill="#FFFFFF">
+            <g id="add-(5)">
+                <g transform="translate(10.000000, 10.000000) scale(-1, 1) translate(-10.000000, -10.000000) translate(6.000000, 6.000000)">
+                    <path d="M7.56584394,3.44185517 L4.5581263,3.44185517 L4.5581263,0.434109031 C4.5581263,0.297093877 4.37207335,0 3.99998374,0 C3.62789412,0 3.44184117,0.297110142 3.44184117,0.434109031 L3.44184117,3.44187143 L0.434107266,3.44187143 C0.297108933,3.44185517 0,3.62790887 0,3.99998374 C0,4.3720586 0.297108933,4.55812857 0.434107266,4.55812857 L3.44185744,4.55812857 L3.44185744,7.56589097 C3.44185744,7.70287359 3.62789412,8 4,8 C4.37210588,8 4.55814256,7.70287359 4.55814256,7.56589097 L4.55814256,4.55812857 L7.56589273,4.55812857 C7.7028748,4.55812857 8,4.37209113 8,3.99998374 C8,3.62787634 7.70284227,3.44185517 7.56584394,3.44185517 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

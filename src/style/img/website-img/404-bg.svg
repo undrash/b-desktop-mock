@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="773px" height="758px" viewBox="0 0 773 758" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>404-bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="2.11346233%" y1="2.69824783%" x2="97.4882976%" y2="77.6440416%" id="linearGradient-1">
+            <stop stop-color="#F0F4FD" offset="0%"></stop>
+            <stop stop-color="#F0F4FD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="2.11346233%" y1="2.69824783%" x2="97.4882976%" y2="77.6440416%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Editor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="404-copy-4" transform="translate(-282.000000, -70.000000)" fill-rule="nonzero">
+            <g id="404-bg" transform="translate(282.000000, 64.000000)">
+                <path d="M409.083714,745 C600.453617,745 772.543405,579.560842 772.543405,387.028861 C772.543405,194.49688 600.453617,6 409.083714,6 C217.713812,6 42.365012,225.987474 42.365012,417.0039 C42.365012,608.020326 217.713812,745 409.083714,745 Z" id="Mask" fill="url(#linearGradient-1)"></path>
+                <path d="M392.307999,645.667143 C532.524279,645.667143 658.614064,524.777908 658.614064,384.09148 C658.614064,243.405053 532.524279,105.667143 392.307999,105.667143 C252.09172,105.667143 123.614064,266.415771 123.614064,405.994757 C123.614064,545.573742 252.09172,645.667143 392.307999,645.667143 Z" id="Mask" fill="url(#linearGradient-2)" transform="translate(391.114064, 375.667143) rotate(36.000000) translate(-391.114064, -375.667143) "></path>
+                <path d="M366.718702,762.78883 C559.331282,762.78883 729.878393,596.107473 729.878393,405.117691 C729.878393,311.635647 689.005747,215.99957 619.99371,142.60928 C550.127942,68.3110966 458.704573,24.3888296 366.718702,24.3888296 C275.783026,24.3888296 183.619725,74.580668 111.823198,158.15511 C42.3949864,238.972725 0.3,341.854559 0.3,435.09273 C0.3,526.719298 40.8995971,609.684897 111.790959,670.494234 C180.280342,729.243198 272.16527,762.78883 366.718702,762.78883 Z" id="Mask-Copy-2" stroke="#DCDFF1" stroke-width="0.6"></path>
+            </g>
+        </g>
+    </g>
+</svg>

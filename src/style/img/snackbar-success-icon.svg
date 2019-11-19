@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="30px" viewBox="0 0 46 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>snackbar-success-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Editor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="snackbars" transform="translate(-490.000000, -469.000000)">
+            <g id="Group-18" transform="translate(68.000000, 424.000000)">
+                <g id="Group-15-Copy-6" transform="translate(422.000000, 45.000000)">
+                    <g id="Oval">
+                        <g id="snackbar-success-icon" transform="translate(-28.000000, -10.000000)">
+                            <path d="M32,64 C49.673112,64 74,49.673112 74,32 C74,14.326888 49.673112,3.55271368e-15 32,3.55271368e-15 C14.326888,3.55271368e-15 -6.39488462e-14,14.326888 -6.39488462e-14,32 C-6.39488462e-14,49.673112 14.326888,64 32,64 Z" id="Oval" fill="#A9E02D" fill-rule="nonzero"></path>
+                            <path d="M55.4113998,20.2942965 L48.670546,27.5738354 L45.5886002,24.2456373 C45.2251513,23.8532286 44.6359798,23.8532286 44.2725309,24.2456373 C43.9091564,24.6381264 43.9091564,25.2743735 44.2725309,25.6668626 L48.0125113,29.7056734 C48.1942358,29.9018375 48.4323909,30 48.670546,30 C48.9087011,30 49.1468562,29.9018375 49.3285807,29.7056734 L56.7274691,21.7156022 C57.0908436,21.3231131 57.0908436,20.6868659 56.7274691,20.2943769 C56.3640202,19.9018878 55.7747743,19.9018878 55.4113998,20.2942965 Z" id="Path" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,56 @@
+
+@import "color-variables";
+@import "mixins";
+
+
+#snackbar-container {
+  @include center( "horizontal" );
+  width: 410px;
+  max-width: calc( 100vw - 15px );
+  top: 10px;
+  z-index: 10;
+  margin-top: 70px;
+
+  .snackbar {
+
+    padding: 5px 15px 5px 55px;
+    border-radius: 25px;
+    margin-top: 20px;
+    z-index: 1000;
+    color: #ffffff;
+    box-shadow: 0 16px 20px -10px #193bbb;
+
+    .snackbar-message{
+      display: inline-block;
+      margin-right: 90px;
+    }
+
+    .snackbar-close {
+      opacity: 0.5;
+      float: right;
+      cursor: pointer;
+      transition: opacity 0.3s ease-in-out;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    &.info {
+      background: url("../style/img/snackbar-info-icon.svg") no-repeat left center #5878F2;
+    }
+
+    &.error {
+      background: url("../style/img/snackbar-error-icon.svg") no-repeat left center #5878F2;
+    }
+
+    &.success {
+      background: url("../style/img/snackbar-success-icon.svg") no-repeat left center #5878F2;
+    }
+
+    &.alert {
+      background: url("../style/img/snackbar-alert-icon.svg") no-repeat left center #5878F2;
+    }
+  }
+
+}

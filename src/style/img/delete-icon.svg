@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="21px" viewBox="0 0 20 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>delete-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Editor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flows-More-Button" transform="translate(-1159.000000, -328.000000)" fill="#202842">
+            <g id="Group" transform="translate(20.000000, 183.000000)">
+                <g id="Group-7" transform="translate(1124.000000, 28.000000)">
+                    <g id="Group-6-Copy-2" transform="translate(0.000000, 102.000000)">
+                        <g id="Group-29">
+                            <g id="delete-icon" transform="translate(15.000000, 15.000000)">
+                                <g id="Group" transform="translate(0.000000, 3.117188)">
+                                    <polygon id="Path" points="14.0825941 4.12313672 12.4056904 4.06284375 12.0421339 13.7951953 13.7190377 13.8552422"></polygon>
+                                    <rect id="Rectangle" x="9.16100418" y="4.09299023" width="1.67799163" height="9.73239258"></rect>
+                                    <polygon id="Path" points="7.95757322 13.7949492 7.59401674 4.06255664 5.91711297 4.12289063 6.2807113 13.8552422"></polygon>
+                                    <path d="M0.0158577406,0.0355605469 L0.0158577406,1.68045117 L1.76435146,1.68045117 L3.15146444,17.1324727 C3.18949791,17.5571074 3.55225941,17.8828125 3.98711297,17.8828125 L15.9846025,17.8828125 C16.4194979,17.8828125 16.7825105,17.5568613 16.820251,17.1321855 L18.2074059,1.68045117 L19.9841423,1.68045117 L19.9841423,0.0355605469 L0.0158577406,0.0355605469 Z M15.2161088,16.2379219 L4.75539749,16.2379219 L3.44878661,1.68045117 L16.5230126,1.68045117 L15.2161088,16.2379219 Z" id="Shape" fill-rule="nonzero"></path>
+                                </g>
+                                <path d="M12.7407531,0 L7.25924686,0 C6.48820084,0 5.8609205,0.61490625 5.8609205,1.37074219 L5.8609205,3.97519336 L7.53891213,3.97519336 L7.53891213,1.64489062 L12.4610879,1.64489062 L12.4610879,3.97519336 L14.1390795,3.97519336 L14.1390795,1.37074219 C14.1390795,0.61490625 13.5117992,0 12.7407531,0 Z" id="Path"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

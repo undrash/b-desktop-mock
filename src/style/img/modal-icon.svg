@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>modal-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="37" height="34" rx="2"></rect>
+        <filter x="-21.6%" y="-20.6%" width="143.2%" height="147.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.203921569   0 0 0 0 0.341176471   0 0 0 0 0.862745098  0 0 0 0.131453804 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="components/add-new-guide" transform="translate(-20.000000, -63.000000)" fill-rule="nonzero">
+            <g id="Group-6-Copy">
+                <g transform="translate(0.000000, 56.000000)">
+                    <g id="modal-icon" transform="translate(20.000000, 7.000000)">
+                        <circle id="Oval" fill="#E3E9F6" cx="30" cy="30" r="30"></circle>
+                        <g id="Group-29" transform="translate(12.000000, 13.000000)">
+                            <g id="Rectangle">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                            </g>
+                            <rect id="Rectangle" fill="#5D698D" x="13" y="26.5271739" width="10.8986301" height="3.81885027" rx="0.482142857"></rect>
+                            <rect id="Rectangle" fill="#DCDFF1" x="10" y="4.02717391" width="17" height="8" rx="1"></rect>
+                            <rect id="Rectangle" fill-opacity="0.33" fill="#5D698D" x="4" y="19" width="29.9416168" height="1.02717391" rx="0.513586957"></rect>
+                            <rect id="Rectangle-Copy-9" fill-opacity="0.33" fill="#5D698D" x="4" y="16" width="29.9416168" height="1.02717391" rx="0.513586957"></rect>
+                            <rect id="Rectangle-Copy-6" fill-opacity="0.33" fill="#5D698D" x="4" y="22" width="17.254491" height="1.02717391" rx="0.513586957"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="15px" viewBox="0 0 18 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>back-arrow-black</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Editor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="404" transform="translate(-619.000000, -590.000000)" fill="#202842">
+            <g id="Group-4" transform="translate(479.000000, 281.000000)">
+                <g id="buttons/primary-rounded" transform="translate(119.000000, 296.000000)">
+                    <g id="Group" transform="translate(21.000000, 8.000000)">
+                        <path d="M16.7835574,11.7468347 L10.2408065,5.29522177 C9.84161688,4.90159274 9.19421168,4.90159274 8.79502209,5.29522177 C8.39575071,5.68893145 8.39575071,6.32715726 8.79502209,6.72086694 L13.592576,11.4515927 L1.02230483,11.4515927 C0.457747212,11.4515927 0,11.9029637 0,12.4596573 C0,13.0162702 0.457747212,13.4677218 1.02230483,13.4677218 L13.592576,13.4677218 L8.79518566,18.1984476 C8.39591428,18.5921573 8.39591428,19.2303831 8.79518566,19.6240927 C8.99473956,19.8207863 9.2564496,19.9193347 9.51807785,19.9193347 C9.7797061,19.9193347 10.0413344,19.8207863 10.24097,19.6240927 L16.7835574,13.1724798 C17.1828288,12.7787702 17.1828288,12.1405444 16.7835574,11.7468347 Z" id="back-arrow-black" transform="translate(8.541505, 12.459667) scale(-1, 1) translate(-8.541505, -12.459667) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

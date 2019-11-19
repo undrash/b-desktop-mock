@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="10px" viewBox="0 0 18 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>dropdown-arrow-up</title>
+    <desc>Created with Sketch.</desc>
+    <g id="V4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M13.3891957,5.85866279 L5.85869186,13.3889341 C5.37966085,13.8681977 4.60299419,13.8681977 4.12419574,13.3889341 C3.64535853,12.9100969 3.64535853,12.133469 4.12419574,11.6546705 L10.7875291,4.99153101 L4.12438953,-1.67137597 C3.64555233,-2.15040698 3.64555233,-2.92695736 4.12438953,-3.40579457 C4.60322674,-3.88482558 5.37985465,-3.88482558 5.85888566,-3.40579457 L13.3893895,4.12459302 C13.6288081,4.36412791 13.7483818,4.67773256 13.7483818,4.99149225 C13.7483818,5.30540698 13.6285756,5.61924419 13.3891957,5.85866279 Z" id="dropdown-arrow-up" fill="#5D698D" transform="translate(8.756725, 4.991657) scale(1, -1) rotate(-270.000000) translate(-8.756725, -4.991657) "></path>
+    </g>
+</svg>
