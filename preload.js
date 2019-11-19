@@ -6,6 +6,9 @@ const sourceDir = path.resolve( __dirname, "preload" );
 
 window.ipc = require('electron').ipcRenderer;
 
+
+
+
 process.once( 'document-start', () => {
 
     console.log( "PRELOADER" );

@@ -13,7 +13,7 @@
     }
   },
   "include": [
-    "client/**/*",
+    "src/**/*",
     "node_modules/@types/node/globals.d.ts",
     "node_modules/typescript/lib/lib.dom.d.ts"
   ]

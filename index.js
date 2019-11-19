@@ -22,11 +22,16 @@ app.on( 'ready', () => {
 
     win.loadFile( path.join( __dirname, 'index.html' ) );
 
-    win.webContents.openDevTools();
+    // win.webContents.openDevTools();
 });
 
 
 
-ipcMain.on( "load:website", async (event, path) => {
-    win.loadURL( 'https://www.appcues.com/' );
+ipcMain.on( "load:website", async (event, url) => {
+
+    if (!/^https?:\/\//i.test(url)) {
+        url = 'http://' + url;
+    }
+
+    win.loadURL( url );
 });

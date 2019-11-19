@@ -5,10 +5,37 @@
     <title>Hello World!</title>
     <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <style>
+        input {
+            display: block;
+            margin: auto;
+            height: 100px;
+            width: 70%;
+            font-size: 30px;
+            padding-left: 50px;
+        }
+
+        button {
+            background-color: blue;
+            padding: 35px;
+            color: white;
+            margin: 50px auto;
+            display: block;
+        }
+
+        h1 {
+            display: block;
+            text-align: center;
+            font-size: 35px;
+            color: black;
+            margin-top: 400px;
+        }
+    </style>
 </head>
 <body class="authentication">
 
-    <h1>Hello World!</h1>
+    <h1>YOU CAN ENTER ANY WEBSITE!</h1>
+    <input type="text">
     <button>LET's GET THIS PARTY STARTED!!!!!!!!</button>
 
     <script>
@@ -17,10 +44,15 @@
 
 
         const button = document.querySelector( "button" );
+        const input = document.querySelector( "input" );
 
         button.addEventListener( "click", () => {
 
-            window.ipc.send( "load:website" );
+            console.log( input.value );
+
+            if ( ! input.value ) return;
+
+            window.ipc.send( "load:website", input.value );
 
         });
 
